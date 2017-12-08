@@ -4,3 +4,4 @@ import { Three } from './three';
 
 
 console.log(Three.partOne());
+console.log(Three.partTwo());

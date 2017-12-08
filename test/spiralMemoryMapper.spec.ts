@@ -1,7 +1,7 @@
 import { SpiralMemoryMapper } from '../src/spiralMemoryMapper';
 import { expect } from 'chai';
 import 'mocha';
-import {Two} from '../src/two'
+import {Three} from '../src/three'
 
 describe("ChecksumCalculator", () =>  {
     describe("calculateChecksum", () => {
@@ -14,6 +14,7 @@ describe("ChecksumCalculator", () =>  {
             expect(map.getItem(12).distance).to.eq(3);
             expect(map.getItem(23).distance).to.eq(2);
             expect(map.getItem(1024).distance).to.eq(31);
+            Three.partTwo();
         });
     });
 });
