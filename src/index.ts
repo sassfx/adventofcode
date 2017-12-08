@@ -1,7 +1,8 @@
 import { One } from './one';
 import { Two } from './two';
 import { Three } from './three';
+import { Four } from './four';
 
 
-console.log(Three.partOne());
-console.log(Three.partTwo());
+console.log(Four.partOne());
+console.log(Four.partTwo());
